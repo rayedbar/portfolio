@@ -1,7 +1,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    siteUrl: `https://gatsby-starter-clean-resume.netlify.com/`,
+    siteUrl: `https://rayedbinwahed.netlify.app`,
     name: `Rayed Bin Wahed`,
     role: `Software Engineer`,
     email: `rayed.bin.wahed@g.bracu.ac.bd`,
@@ -32,9 +32,6 @@ module.exports = {
         moreInfo: `<p>Recognize known faces video. See a demonstration 
         <a href="https://drive.google.com/file/d/19qYo28wIxOvuBK_8A7esPuHISOZmUmjH/view?usp=sharing" target="_blank">Here</a>.
         </p>`,
-        videoSrcUrl:
-          "https://drive.google.com/file/d/19qYo28wIxOvuBK_8A7esPuHISOZmUmjH/view?usp=sharing",
-        videoTitle: "Face Recognition",
       },
       {
         title: "Pulse Oximetry",
