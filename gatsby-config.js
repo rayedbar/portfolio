@@ -82,7 +82,7 @@ module.exports = {
       {
         degree: "General Certificate of Secondary Education (GCSE)",
         when: "2009-2011",
-        school: "The Aga Khan School, Dhaka",
+        school: "The Aga Khan School",
         where: "Dhaka, Bangladesh",
         moreInfo: `<ul>
           <li>A-Level: 3A, 1B</li>
@@ -177,7 +177,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-111111111-1",
+        trackingId: "UA-186456215-1",
         head: true,
       },
     },
