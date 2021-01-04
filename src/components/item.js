@@ -19,6 +19,23 @@ const Item = props => {
             dangerouslySetInnerHTML={{ __html: props.moreInfo }}
           />
         </tr>
+        {props.videoSrcUrl ? (
+          <tr>
+            <td colSpan={2}>
+              <div className="video">
+                <iframe
+                  src={props.videoSrcURL}
+                  title={props.videoTitle}
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  frameBorder="0"
+                  webkitallowfullscreen="true"
+                  mozallowfullscreen="true"
+                  allowFullScreen
+                />
+              </div>
+            </td>
+          </tr>
+        ) : null}
       </tbody>
     </table>
   )

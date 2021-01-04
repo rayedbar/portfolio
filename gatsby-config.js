@@ -2,85 +2,108 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     siteUrl: `https://gatsby-starter-clean-resume.netlify.com/`,
-    name: `Luke Skywalker`,
-    role: `Software Developer`,
-    email: `luke@thelightside.com`,
+    name: `Rayed Bin Wahed`,
+    role: `Software Engineer`,
+    email: `rayed.bin.wahed@g.bracu.ac.bd`,
+    phone: `+880 1774-882517`,
     socialMedia: [
       {
         name: "github",
-        link: "https://github.com/masoudkarimif/gatsby-starter-clean-resume",
+        link: "https://github.com/rayedbar",
       },
-      { name: "linkedin", link: "https://linkedin.com" },
-      { name: "facebook", link: "https://facebook.com" },
-      { name: "twitter", link: "https://twitter.com" },
-      { name: "instagram", link: "https://instagram.com" },
+      { name: "linkedin", link: "https://linkedin.com/in/rayedbw/" },
+      // { name: "facebook", link: "https://facebook.com" },
+      { name: "twitter", link: "https://twitter.com/rayedbw" },
+      // { name: "instagram", link: "https://instagram.com" },
     ],
-    about: `
-      <p>The son of Jedi Knight Anakin Skywalker and Senator Padmé Amidala,
-      Luke Skywalker was born along with his twin sister Leia in 19 BBY.
-      As a result of Amidala's death and Anakin's fall to the dark side of the Force,
-      the Skywalker children were separated and sent into hiding,
-      with Leia adopted by the royal family of Alderaan while Luke was raised by his relatives on Tatooine.
-      Longing for a life of adventure and purpose,
-      Skywalker joined the Rebellion and began learning the ways of the Force under the guidance of Jedi Master Obi-Wan Kenobi,
-      whose first apprentice was Luke's own father.
-      During the Battle of Yavin in 0 BBY, Skywalker saved the Alliance from annihilation by destroying the Empire's planet-killing superweapon,
-      the Death Star. He continued his training in the years that followed,
-      determined to become a Jedi Knight like his father before him,
-      and found a new mentor in Grand Master Yoda. After his master's death,
-      Skywalker participated in the Battle of Endor in 4 ABY,
-      during which he confronted the Sith Lord Darth Vader,
-      whom he learned was in fact his father, Anakin Skywalker.
-      With Luke's help, Anakin returned to the light side of the Force by destroying the Emperor at the cost of his own life,
-      fulfilling his destiny as the Chosen One. You can find more information <a href="https://starwars.fandom.com/wiki/Luke_Skywalker" target="_blank" rel="noopener noreferrer">here</a>.</p>
-      <p>See the PDF version of my resume <a href="#">here</a>.</p>
-      <p>As you can see, it's possible to add HTML tags in your about page.</p>
-      `,
+    about: `<p>Having used Machine Learning in conjunction with IoT devices to improve the lives of Intellectually and Developmentally Disabled (IDD) individuals, I  experienced first-hand the wonders of modern Artificial Intelligence. My team and I developed systems to track blood oxygen saturation, detect accidental falls, and monitor sleep. These measurements gave us tremendous insight into the Quality of Life of IDD individuals allowing us to provide proactive care. Additionally, I used Machine Learning to drive new business opportunities and acquire better insight into customer behaviour.</p>
+            <p>My primary research interests are:</p>
+            <ul>
+              <li>Deep Learning</li>
+              <li>Reinforcement Learning</li>
+              <li>Computer Vision</li>
+            </ul>`,
+    projects: [
+      {
+        title: "Face Recognition",
+        when: "2019",
+        company: "Therap (BD) Ltd.",
+        where: "Dhaka, Bangladesh",
+        moreInfo: `<p>Recognize known faces video. See a demonstration 
+        <a href="https://drive.google.com/file/d/19qYo28wIxOvuBK_8A7esPuHISOZmUmjH/view?usp=sharing" target="_blank">Here</a>.
+        </p>`,
+        videoSrcUrl:
+          "https://drive.google.com/file/d/19qYo28wIxOvuBK_8A7esPuHISOZmUmjH/view?usp=sharing",
+        videoTitle: "Face Recognition",
+      },
+      {
+        title: "Pulse Oximetry",
+        when: "2019",
+        company: "Therap (BD) Ltd.",
+        where: "Dhaka, Bangladesh",
+        moreInfo: `<p>Progressive Web App to track individual pulse oximetry. See demonstration 
+        <a href="https://drive.google.com/file/d/1r7zyy5o-K4HcayGznVe2gKz3tkBTs9vL/view?usp=sharing" target="_blank">Here</a>.
+        </p>`,
+      },
+    ],
     education: [
-      {
-        degree: "Ph.D.",
-        major: "Computer Science",
-        when: "2014-2018",
-        school: "Harvard University",
-        where: "Cambridge, MA",
-        moreInfo: `<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        See my thesis <a href="#">here</a>.</p>`,
-      },
-      {
-        degree: "M.Sc.",
-        major: "Software Engineering",
-        when: "2012-2014",
-        school: "Stanford University",
-        where: "Stanford, CA",
-        moreInfo: `"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."`,
-      },
+      // {
+      //   degree: "Ph.D.",
+      //   major: "Computer Science",
+      //   when: "2014-2018",
+      //   school: "Harvard University",
+      //   where: "Cambridge, MA",
+      //   moreInfo: `<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      //   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      //   See my thesis <a href="#">here</a>.</p>`,
+      // },
+      // {
+      //   degree: "M.Sc.",
+      //   major: "Software Engineering",
+      //   when: "2012-2014",
+      //   school: "Stanford University",
+      //   where: "Stanford, CA",
+      //   moreInfo: `"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+      //   totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."`,
+      // },
       {
         degree: "B.Sc.",
-        major: "Computer Engineering",
-        when: "2008-2012",
-        school: "UCLA",
-        where: "Los Angeles, CA",
-        moreInfo: `<p>I finally found out how it feels like to live in LA; it was awesome!</p>`,
+        major: "Computer Science",
+        when: "2012-2016",
+        school: "BRAC University",
+        where: "Dhaka, Bangladesh",
+        moreInfo: `<ul>
+          <li>Final year CGPA: 3.89/4.00; Overall CGPA: 3.75/4.00</li>
+          <li>Awarded High Distinction</li>
+          <li>Merit-Based Scholarship</li>
+          <li>Data Structures and Discrete Mathematics Teaching Assistant</li>
+        </ul>`,
       },
       {
-        degree: "High School Diploma",
-        when: "2000-2008",
-        school: "Awesome High School",
-        where: "Los Angeles, CA",
+        degree: "General Certificate of Secondary Education (GCSE)",
+        when: "2009-2011",
+        school: "The Aga Khan School, Dhaka",
+        where: "Dhaka, Bangladesh",
+        moreInfo: `<ul>
+          <li>A-Level: 3A, 1B</li>
+          <li>O-Level: 8A</li>
+          <li>Business Club Prefect</li>
+          <li>School Debate, Football, and Cricket teams</li>
+        </ul>`,
       },
     ],
     experience: [
       {
-        role: "Software Developer",
-        when: "2014-Present",
-        company: "Facebook",
-        where: "Menlo Park, CA",
-        moreInfo: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+        role: "Team Lead, Machine Learning",
+        when: "2018-Present",
+        company: "Therap (BD) Ltd.",
+        where: "Dhaka, Bangladesh",
+        moreInfo: `<ul>
+          <li><strong>Pulse Oximetry</strong>: Implemented a Progressive Web App 
+          (PWA) using AWS Amplify, React, and GraphQL to track blood oxygen saturation (SpO2) 
+          and heart rate of IDD individuals as an early detection mechanism for COVID-19.
+          </li> 
+        </ul>`,
       },
       {
         role: "Web Developer",
@@ -92,19 +115,29 @@ module.exports = {
     ],
     skills: [
       {
-        name: "JavaScript",
-        level: "85",
-        experience: "5 years",
+        name: "Python",
+        level: "90",
+        experience: "4 years",
       },
       {
-        name: "Python",
-        level: "75",
-        experience: "2 years",
+        name: "TensorFlow and PyTorch",
+        level: "85",
+        experience: "3 years",
+      },
+      {
+        name: "Data Visualization and Wrangling",
+        level: "80",
+        experience: "3 years",
       },
       {
         name: "Java",
-        level: "65",
-        experience: "2 years",
+        level: "70",
+        experience: "5 years",
+      },
+      {
+        name: "JavaScript",
+        level: "85",
+        experience: "4 years",
       },
       {
         name: "React",
@@ -112,14 +145,19 @@ module.exports = {
         experience: "1 years",
       },
       {
-        name: "Linux",
-        level: "75",
-        experience: "4 years",
+        name: "GraphQL",
+        level: "60",
+        experience: "1 years",
       },
       {
-        name: "C++",
-        level: "40",
-        experience: "1 years",
+        name: "SQL",
+        level: "80",
+        experience: "3 years",
+      },
+      {
+        name: "Linux",
+        level: "75",
+        experience: "8 years",
       },
     ],
     interests: [
@@ -145,15 +183,11 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
-		`gatsby-plugin-less`,
+    `gatsby-plugin-less`,
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          {
-            family: `IBM Plex Mono`,
-          },
-        ],
+        fonts: [`IBM Plex Mono`],
       },
     },
   ],

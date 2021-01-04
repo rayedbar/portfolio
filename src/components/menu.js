@@ -5,10 +5,15 @@ import { Link } from "gatsby"
 const Menu = props => {
   const menuItems = [
     { name: "About", link: "/" },
-    { name: "Skills", link: "/skills" },
+    {
+      name: "Resume",
+      link:
+        "https://github.com/rayedbar/resume/blob/main/rayed_bin_wahed_resume.pdf",
+    },
     { name: "Education", link: "/education" },
-    { name: "Experience", link: "/experience" },
-    { name: "Interests", link: "/interests" },
+    { name: "Projects", link: "/projects" },
+    { name: "Skills", link: "/skills" },
+    // { name: "Interests", link: "/interests" },
   ].map((item, index) => (
     <MenuItem
       to={item.link}
