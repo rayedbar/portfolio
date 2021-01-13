@@ -12,12 +12,10 @@ module.exports = {
         link: "https://github.com/rayedbar",
       },
       { name: "linkedin", link: "https://linkedin.com/in/rayedbw/" },
-      // { name: "facebook", link: "https://facebook.com" },
       { name: "twitter", link: "https://twitter.com/rayedbw" },
-      // { name: "instagram", link: "https://instagram.com" },
     ],
     about: `<p>Having used Machine Learning in conjunction with IoT devices to improve the lives of Intellectually and Developmentally Disabled (IDD) individuals, I  experienced first-hand the wonders of modern Artificial Intelligence. My team and I developed systems to track blood oxygen saturation, detect accidental falls, and monitor sleep. These measurements gave us tremendous insight into the Quality of Life of IDD individuals allowing us to provide proactive care. Additionally, I used Machine Learning to drive new business opportunities and acquire better insight into customer behaviour.</p>
-            <p>My primary research interests are:</p>
+            <p>My primary research interests are in the areas of:</p>
             <ul>
               <li>Deep Learning</li>
               <li>Reinforcement Learning</li>
@@ -25,44 +23,56 @@ module.exports = {
             </ul>`,
     projects: [
       {
-        title: "Face Recognition",
-        when: "2019",
+        title: "Protected Face Recognition from Video",
+        when: "2020",
         company: "Therap (BD) Ltd.",
         where: "Dhaka, Bangladesh",
-        moreInfo: `<p>Recognize known faces video. See a demonstration 
-        <a href="https://drive.google.com/file/d/19qYo28wIxOvuBK_8A7esPuHISOZmUmjH/view?usp=sharing" target="_blank">Here</a>.
-        </p>`,
+        moreInfo: `
+        <ul>
+          <li>Detect all faces in a video.</li>
+          <li>Recognize faces of individuals whose identity needs to be protected and blur them.</li>
+        </ul>
+        <p>
+          <a href="https://github.com/rayedbar/face-recognition" target="_blank" rel="noopener noreferrer">Code</a> | 
+          <a href="https://drive.google.com/file/d/1ZvdSyrSRgqwJCGB7Ks4sZKm9anzHHo97/view?usp=sharing" target="_blank" rel="noopener noreferrer">Paper</a> |
+          <a href="https://drive.google.com/file/d/1Zjq13fnfwNCF3zA2BdlMkZLR-9zuVgLd/view?usp=sharing" target="_blank" rel="noopener noreferrer">Video Demonstration</a>
+        </p>
+        `,
       },
       {
-        title: "Pulse Oximetry",
-        when: "2019",
+        title: "Pulse Oximetry Tracking Website",
+        when: "2020",
         company: "Therap (BD) Ltd.",
         where: "Dhaka, Bangladesh",
-        moreInfo: `<p>Progressive Web App to track individual pulse oximetry. See demonstration 
-        <a href="https://drive.google.com/file/d/1r7zyy5o-K4HcayGznVe2gKz3tkBTs9vL/view?usp=sharing" target="_blank">Here</a>.
-        </p>`,
+        moreInfo: `
+        <ul>
+          <li>Progressive Web App to track SpO2 and heart-rate.</li>
+          <li>Add alert recipients and customize thresholds.</li>
+          <li>Send real-time SMS and Email notifications.</li>
+        </ul>
+        <p>
+          <a href="https://test.hsbtbio.com/" target="_blank" rel="noopener noreferrer">Live Site</a> | 
+          <a href="https://drive.google.com/file/d/1r7zyy5o-K4HcayGznVe2gKz3tkBTs9vL/view?usp=sharing" target="_blank" rel="noopener noreferrer">Video Demonstration</a>
+        </p>
+        `,
+      },
+      {
+        title: "Accidental Fall Detection",
+        when: "2020",
+        company: "Therap (BD) Ltd.",
+        where: "Dhaka, Bangladesh",
+        moreInfo: `
+        <ul>
+          <li>Detect accidental fall from smartwatch gyroscope and accelerometer sensor data.</li>
+          <li>Detect Activities of Daily Living (sitting, walking, standing, etc.).</li>
+        </ul>
+        <p>
+          <a href="https://drive.google.com/file/d/1sNoZhevF-ptmp_8GWK0h8wqiQ1DxK06i/view?usp=sharing" target="_blank" rel="noopener noreferrer">Paper</a>
+        </p>
+        `,
       },
     ],
     education: [
-      // {
-      //   degree: "Ph.D.",
-      //   major: "Computer Science",
-      //   when: "2014-2018",
-      //   school: "Harvard University",
-      //   where: "Cambridge, MA",
-      //   moreInfo: `<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      //   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      //   See my thesis <a href="#">here</a>.</p>`,
-      // },
-      // {
-      //   degree: "M.Sc.",
-      //   major: "Software Engineering",
-      //   when: "2012-2014",
-      //   school: "Stanford University",
-      //   where: "Stanford, CA",
-      //   moreInfo: `"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-      //   totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."`,
-      // },
       {
         degree: "B.Sc.",
         major: "Computer Science",
@@ -77,6 +87,26 @@ module.exports = {
         </ul>`,
       },
       {
+        degree: "Nanodegree",
+        major: "Machine Learning",
+        when: "2019-2020",
+        school: "Udacity",
+        where: "Dhaka, Bangladesh",
+        moreInfo: `
+        <ul>
+          <li>Human Activity Recognition (HAR) LSTM Deep Learning model. 
+          Final project involving extensive data preprocessing, training, hyperparameter tuning, and deployment for real-time inference.
+            <a href="https://github.com/rayedbar/human-activity-recognition-smartwartch" target="_blank" rel="noopener noreferrer">Code.</a>
+          </li>
+          <li>Text plagiarism detector.
+            <a href="https://github.com/rayedbar/plagiarism_detection" target="_blank" rel="noopener noreferrer">Code.</a>
+          </li>
+          <li>IMDB sentiment analysis web app powered by Amazon SageMaker, API Gateway, and Lambda.
+            <a href="https://github.com/rayedbar/imdb-sentiment-analysis-sagemaker-app" target="_blank" rel="noopener noreferrer">Code.</a>
+          </li>
+        </ul>`,
+      },
+      {
         degree: "General Certificate of Secondary Education (GCSE)",
         when: "2009-2011",
         school: "The Aga Khan School",
@@ -87,27 +117,6 @@ module.exports = {
           <li>Business Club Prefect</li>
           <li>School Debate, Football, and Cricket teams</li>
         </ul>`,
-      },
-    ],
-    experience: [
-      {
-        role: "Team Lead, Machine Learning",
-        when: "2018-Present",
-        company: "Therap (BD) Ltd.",
-        where: "Dhaka, Bangladesh",
-        moreInfo: `<ul>
-          <li><strong>Pulse Oximetry</strong>: Implemented a Progressive Web App 
-          (PWA) using AWS Amplify, React, and GraphQL to track blood oxygen saturation (SpO2) 
-          and heart rate of IDD individuals as an early detection mechanism for COVID-19.
-          </li> 
-        </ul>`,
-      },
-      {
-        role: "Web Developer",
-        when: "2010-2014",
-        company: "Amazon",
-        where: "Vancouver, BC",
-        moreInfo: `See my <a href="#" target="_blank" rel="noopener noreferrer">work</a>.`,
       },
     ],
     skills: [
