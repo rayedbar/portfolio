@@ -14,7 +14,18 @@ module.exports = {
       { name: "linkedin", link: "https://linkedin.com/in/rayedbw/" },
       { name: "twitter", link: "https://twitter.com/rayedbw" },
     ],
-    about: `<p>Having used Machine Learning in conjunction with IoT devices to improve the lives of Intellectually and Developmentally Disabled (IDD) individuals, I  experienced first-hand the wonders of modern Artificial Intelligence. My team and I developed systems to track blood oxygen saturation, detect accidental falls, and monitor sleep. These measurements gave us tremendous insight into the Quality of Life of IDD individuals allowing us to provide proactive care. Additionally, I used Machine Learning to drive new business opportunities and acquire better insight into customer behaviour.</p>
+    about: `<p>Having used Machine Learning in conjunction with IoT devices to 
+              improve the lives of Intellectually and Developmentally Disabled (IDD) individuals, 
+              I  experienced first-hand the wonders of modern Artificial Intelligence. 
+              My team and I developed systems to 
+              <strong>recognize faces in video</strong>, 
+              <strong>track blood oxygen saturation</strong>, 
+              <strong>detect accidental falls</strong>, and 
+              <strong>monitor sleep</strong>. 
+              These measurements gave us tremendous insight into the 
+              Quality of Life of IDD individuals allowing us to provide proactive care. 
+              Additionally, I used Machine Learning to drive <strong>new business opportunities</strong> 
+              and acquire better insight into <strong>customer behaviour</strong>.</p>
             <p>My primary research interests are in the areas of:</p>
             <ul>
               <li>Deep Learning</li>
