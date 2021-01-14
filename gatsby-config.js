@@ -14,7 +14,8 @@ module.exports = {
       { name: "linkedin", link: "https://linkedin.com/in/rayedbw/" },
       { name: "twitter", link: "https://twitter.com/rayedbw" },
     ],
-    about: `<p>Having used Machine Learning in conjunction with IoT devices to 
+    about: `<p>
+              Having used Machine Learning in conjunction with IoT devices to 
               improve the lives of Intellectually and Developmentally Disabled (IDD) individuals, 
               I  experienced first-hand the wonders of modern Artificial Intelligence. 
               My team and I developed systems to 
@@ -25,13 +26,22 @@ module.exports = {
               These measurements gave us tremendous insight into the 
               Quality of Life of IDD individuals allowing us to provide proactive care. 
               Additionally, I used Machine Learning to drive <strong>new business opportunities</strong> 
-              and acquire better insight into <strong>customer behaviour</strong>.</p>
-            <p>My primary research interests are in the areas of:</p>
+              and acquire better insight into <strong>customer behaviour</strong>.
+            </p>
+            <p>
+              I am primarily interested in the <strong>interaction between intelligent agents and their environment</strong>. 
+              How can this interaction lead to better behaviour, improved perception, and more robust models of the world? 
+              What are the computational tradeoffs in doing this effectively and in real-time?
+              I think these are intriguing questions and ones that will allow us to understand
+              <strong>what it means to learn, to think, to act, and to be intelligent</strong>.
+            </p>
+            <p>Consequently, I am pursuing research in the areas of:</p>
             <ul>
-              <li>Deep Learning</li>
-              <li>Reinforcement Learning</li>
+              <li>Machine Learning</li>
+              <li>Deep Reinforcement Learning</li>
               <li>Computer Vision</li>
-            </ul>`,
+            </ul>
+            `,
     projects: [
       {
         title: "Protected Face Recognition from Video",
