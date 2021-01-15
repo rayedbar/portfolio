@@ -35,11 +35,12 @@ module.exports = {
               I think these are intriguing questions and ones that will allow us to understand
               <strong>what it means to learn, to think, to act, and to be intelligent</strong>.
             </p>
-            <p>Consequently, I am pursuing research in the areas of:</p>
+            <p>Consequently, I am interested in:</p>
             <ul>
               <li>Machine Learning</li>
-              <li>Deep Reinforcement Learning</li>
-              <li>Computer Vision</li>
+              <li>Robotics and Deep Reinforcement Learning</li>
+              <li>Computer Vision and Visual Perception</li>
+              <li>Computational Neuroscience</li>
             </ul>
             `,
     projects: [
