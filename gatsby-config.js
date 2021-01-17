@@ -24,8 +24,8 @@ module.exports = {
               <strong>detect accidental falls</strong>, and 
               <strong>monitor sleep</strong>. 
               These measurements gave us tremendous insight into the 
-              Quality of Life of IDD individuals allowing us to provide proactive care. 
-              Additionally, I used Machine Learning to drive <strong>new business opportunities</strong> 
+              Quality of Life of our end customers allowing us to provide proactive care. 
+              Additionally, I used Machine Learning to drive <strong>new business initiatives</strong> 
               and acquire better insight into <strong>customer behaviour</strong>.
             </p>
             <p>
@@ -38,7 +38,7 @@ module.exports = {
             <p>Consequently, I am interested in:</p>
             <ul>
               <li>Machine Learning</li>
-              <li>Robotics and Deep Reinforcement Learning</li>
+              <li>Deep Reinforcement Learning and Robotics</li>
               <li>Computer Vision and Visual Perception</li>
               <li>Computational Neuroscience</li>
             </ul>

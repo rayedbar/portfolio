@@ -35,7 +35,7 @@ export default props => {
   return (
     <Layout
       pageTitle="Education"
-      pageDescription="Learn more about my education background"
+      pageDescription="Learn more about my education"
     >
       {education}
     </Layout>
