@@ -38,8 +38,8 @@ module.exports = {
             <p>Consequently, I am interested in:</p>
             <ul>
               <li>Machine Learning</li>
+              <li>Computer Vision and Visual Representations</li>
               <li>Deep Reinforcement Learning and Robotics</li>
-              <li>Computer Vision and Visual Perception</li>
               <li>Computational Neuroscience</li>
             </ul>
             `,
